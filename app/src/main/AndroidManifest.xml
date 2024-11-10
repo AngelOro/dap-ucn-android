@@ -13,6 +13,11 @@
         android:theme="@style/Theme.AppMenu"
         tools:targetApi="31">
         <activity
+            android:name=".MenuPrincipalActivity"
+            android:exported="false"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/Theme.AppMenu.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
