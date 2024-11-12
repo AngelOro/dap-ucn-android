@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_perfil">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="co.com.ucn.appmenu.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_perfil"
+        android:name="co.com.ucn.appmenu.PerfilMascotaFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil_mascota" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="co.com.ucn.appmenu.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_citas"
+        android:name="co.com.ucn.appmenu.CitasFragment"
+        android:label="@string/menu_vet"
+        tools:layout="@layout/fragment_citas" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="co.com.ucn.appmenu.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_calendario"
+        android:name="co.com.ucn.appmenu.CalendarioFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_calendario" />
 </navigation>
